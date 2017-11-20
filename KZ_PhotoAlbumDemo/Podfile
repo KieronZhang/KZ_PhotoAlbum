@@ -1,0 +1,13 @@
+platform :ios, ‘8.0’
+
+use_frameworks!
+
+target 'KZ_PhotoAlbum' do
+    
+    pod 'KZ_VideoPlayer'
+    pod 'KZ_Categories'
+    pod 'KZ_MacroDefinition'
+    pod 'KZ_ReuseScrollView'
+    pod 'MBProgressHUD'
+    
+end
