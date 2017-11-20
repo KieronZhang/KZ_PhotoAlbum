@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform = :ios, '8.0'
     s.source = {:git => 'https://github.com/KieronZhang/KZ_PhotoAlbum.git', :tag => s.version, :submodules => true}
     s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
-    s.resource = 'KZ_PhotoAlbum/PhotoAlbum.bundle'
+    s.resource = 'KZ_PhotoAlbum/KZ_PhotoAlbumBundle.bundle'
     s.frameworks = 'UIKit', 'Foundation'
     s.vendored_frameworks = 'KZ_PhotoAlbum/KZ_PhotoAlbumFramework.framework'
     s.requires_arc = true
