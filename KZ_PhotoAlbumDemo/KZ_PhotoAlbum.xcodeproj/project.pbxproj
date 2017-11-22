@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE9A25BC1FC3332300668BA7 /* KZ_PhotoAlbumBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE9A25BA1FC3332200668BA7 /* KZ_PhotoAlbumBundle.bundle */; };
-		AE9A25BD1FC3332300668BA7 /* KZ_PhotoAlbumFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A25BB1FC3332200668BA7 /* KZ_PhotoAlbumFramework.framework */; };
+		AE9A26041FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A26031FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework */; };
 		AEF176921E0EBD84003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176911E0EBD84003D041A /* main.m */; };
 		AEF176951E0EBD84003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176941E0EBD84003D041A /* AppDelegate.m */; };
 		AEF176981E0EBD84003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176971E0EBD84003D041A /* ViewController.m */; };
@@ -38,7 +38,7 @@
 		8DA9A4C6B25CFFCF3122897B /* Pods-KZ_PhotoAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_PhotoAlbum.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_PhotoAlbum/Pods-KZ_PhotoAlbum.release.xcconfig"; sourceTree = "<group>"; };
 		ACA99571B2DA6189DEC364D7 /* Pods-KZ_PhotoAlbumFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_PhotoAlbumFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_PhotoAlbumFramework/Pods-KZ_PhotoAlbumFramework.release.xcconfig"; sourceTree = "<group>"; };
 		AE9A25BA1FC3332200668BA7 /* KZ_PhotoAlbumBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_PhotoAlbumBundle.bundle; sourceTree = "<group>"; };
-		AE9A25BB1FC3332200668BA7 /* KZ_PhotoAlbumFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PhotoAlbumFramework.framework; sourceTree = "<group>"; };
+		AE9A26031FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PhotoAlbumFramework.framework; sourceTree = "<group>"; };
 		AEF1768D1E0EBD84003D041A /* KZ_PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_PhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF176911E0EBD84003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF176931E0EBD84003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A25BD1FC3332300668BA7 /* KZ_PhotoAlbumFramework.framework in Frameworks */,
+				AE9A26041FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework in Frameworks */,
 				F6143FD091DD83C10F72F2D9 /* Pods_KZ_PhotoAlbum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,8 +82,8 @@
 		AE9A25B91FC3332200668BA7 /* PhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				AE9A26031FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework */,
 				AE9A25BA1FC3332200668BA7 /* KZ_PhotoAlbumBundle.bundle */,
-				AE9A25BB1FC3332200668BA7 /* KZ_PhotoAlbumFramework.framework */,
 			);
 			path = PhotoAlbum;
 			sourceTree = "<group>";
