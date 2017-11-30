@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE9A25BC1FC3332300668BA7 /* KZ_PhotoAlbumBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE9A25BA1FC3332200668BA7 /* KZ_PhotoAlbumBundle.bundle */; };
-		AE9A26041FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9A26031FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework */; };
 		AEF176921E0EBD84003D041A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176911E0EBD84003D041A /* main.m */; };
 		AEF176951E0EBD84003D041A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176941E0EBD84003D041A /* AppDelegate.m */; };
 		AEF176981E0EBD84003D041A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF176971E0EBD84003D041A /* ViewController.m */; };
@@ -16,6 +14,8 @@
 		AEF1769D1E0EBD84003D041A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF1769C1E0EBD84003D041A /* Assets.xcassets */; };
 		AEF176A01E0EBD84003D041A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1769E1E0EBD84003D041A /* LaunchScreen.storyboard */; };
 		AEF178101E0F1F54003D041A /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF1780F1E0F1F54003D041A /* CollectionViewCell.m */; };
+		AEFCC1DC1FCFE73300CD8FB4 /* KZ_PhotoAlbumFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFCC1DA1FCFE73300CD8FB4 /* KZ_PhotoAlbumFramework.framework */; };
+		AEFCC1DD1FCFE73300CD8FB4 /* KZ_PhotoAlbumBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEFCC1DB1FCFE73300CD8FB4 /* KZ_PhotoAlbumBundle.bundle */; };
 		F6143FD091DD83C10F72F2D9 /* Pods_KZ_PhotoAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F3B12752E58B4E69F2FA95 /* Pods_KZ_PhotoAlbum.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +37,6 @@
 		271446C98343974C4653B891 /* Pods-KZ_PhotoAlbumFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_PhotoAlbumFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_PhotoAlbumFramework/Pods-KZ_PhotoAlbumFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		8DA9A4C6B25CFFCF3122897B /* Pods-KZ_PhotoAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_PhotoAlbum.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_PhotoAlbum/Pods-KZ_PhotoAlbum.release.xcconfig"; sourceTree = "<group>"; };
 		ACA99571B2DA6189DEC364D7 /* Pods-KZ_PhotoAlbumFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_PhotoAlbumFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_PhotoAlbumFramework/Pods-KZ_PhotoAlbumFramework.release.xcconfig"; sourceTree = "<group>"; };
-		AE9A25BA1FC3332200668BA7 /* KZ_PhotoAlbumBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_PhotoAlbumBundle.bundle; sourceTree = "<group>"; };
-		AE9A26031FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PhotoAlbumFramework.framework; sourceTree = "<group>"; };
 		AEF1768D1E0EBD84003D041A /* KZ_PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_PhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF176911E0EBD84003D041A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEF176931E0EBD84003D041A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		AEF176A11E0EBD84003D041A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEF1780E1E0F1F54003D041A /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		AEF1780F1E0F1F54003D041A /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		AEFCC1DA1FCFE73300CD8FB4 /* KZ_PhotoAlbumFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PhotoAlbumFramework.framework; sourceTree = "<group>"; };
+		AEFCC1DB1FCFE73300CD8FB4 /* KZ_PhotoAlbumBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_PhotoAlbumBundle.bundle; sourceTree = "<group>"; };
 		B5CF30FF94255C9104FE680C /* Pods_KZ_PhotoAlbumFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_PhotoAlbumFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED212E5388594F93B146C8F /* Pods-KZ_PhotoAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_PhotoAlbum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_PhotoAlbum/Pods-KZ_PhotoAlbum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE9A26041FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework in Frameworks */,
+				AEFCC1DC1FCFE73300CD8FB4 /* KZ_PhotoAlbumFramework.framework in Frameworks */,
 				F6143FD091DD83C10F72F2D9 /* Pods_KZ_PhotoAlbum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,8 +82,8 @@
 		AE9A25B91FC3332200668BA7 /* PhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
-				AE9A26031FC5F84F00668BA7 /* KZ_PhotoAlbumFramework.framework */,
-				AE9A25BA1FC3332200668BA7 /* KZ_PhotoAlbumBundle.bundle */,
+				AEFCC1DB1FCFE73300CD8FB4 /* KZ_PhotoAlbumBundle.bundle */,
+				AEFCC1DA1FCFE73300CD8FB4 /* KZ_PhotoAlbumFramework.framework */,
 			);
 			path = PhotoAlbum;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 				AEF176A01E0EBD84003D041A /* LaunchScreen.storyboard in Resources */,
 				AEF1769D1E0EBD84003D041A /* Assets.xcassets in Resources */,
 				AEF1769B1E0EBD84003D041A /* Main.storyboard in Resources */,
-				AE9A25BC1FC3332300668BA7 /* KZ_PhotoAlbumBundle.bundle in Resources */,
+				AEFCC1DD1FCFE73300CD8FB4 /* KZ_PhotoAlbumBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
