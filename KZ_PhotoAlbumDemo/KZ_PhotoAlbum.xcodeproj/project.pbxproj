@@ -16,7 +16,7 @@
 		AE40073220A4347000017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40073120A4347000017619 /* main.m */; };
 		AE40073820A4360D00017619 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40073620A4360C00017619 /* CollectionViewCell.m */; };
 		AE40074120A436A900017619 /* KZ_PhotoAlbum_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE40073E20A436A800017619 /* KZ_PhotoAlbum_Bundle.bundle */; };
-		AE40074220A436A900017619 /* KZ_PhotoAlbum_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40074020A436A900017619 /* KZ_PhotoAlbum_iOS.framework */; };
+		AEF94DF4217873420063EE69 /* KZ_PhotoAlbum_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94DF3217873420063EE69 /* KZ_PhotoAlbum_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		AE40073620A4360C00017619 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		AE40073720A4360C00017619 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		AE40073E20A436A800017619 /* KZ_PhotoAlbum_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KZ_PhotoAlbum_Bundle.bundle; sourceTree = "<group>"; };
-		AE40074020A436A900017619 /* KZ_PhotoAlbum_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PhotoAlbum_iOS.framework; sourceTree = "<group>"; };
+		AEF94DF3217873420063EE69 /* KZ_PhotoAlbum_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PhotoAlbum_iOS.framework; sourceTree = "<group>"; };
 		FBFD367CE3535ACCAC48212C /* Pods_KZ_PhotoAlbum_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_PhotoAlbum_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE40074220A436A900017619 /* KZ_PhotoAlbum_iOS.framework in Frameworks */,
+				AEF94DF4217873420063EE69 /* KZ_PhotoAlbum_iOS.framework in Frameworks */,
 				74B32D76393A0ED8A28A6241 /* Pods_KZ_PhotoAlbum_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,7 +110,7 @@
 		AE40073F20A436A900017619 /* PhotoAlbum */ = {
 			isa = PBXGroup;
 			children = (
-				AE40074020A436A900017619 /* KZ_PhotoAlbum_iOS.framework */,
+				AEF94DF3217873420063EE69 /* KZ_PhotoAlbum_iOS.framework */,
 			);
 			path = PhotoAlbum;
 			sourceTree = "<group>";
@@ -384,7 +384,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-PhotoAlbum-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.PhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -408,7 +408,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-PhotoAlbum-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.PhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

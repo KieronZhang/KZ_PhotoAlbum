@@ -1,13 +1,13 @@
 PODS:
-  - KZ_Categories (0.1.3):
+  - KZ_Categories (0.1.4):
     - KZ_JSON
-  - KZ_Constraints (0.1.4)
-  - KZ_HUD (0.1.2):
+  - KZ_Constraints (0.1.7)
+  - KZ_HUD (0.1.3):
     - KZ_Categories
-  - KZ_JSON (0.1.2)
-  - KZ_MacroDefinition (0.1.1)
-  - KZ_ReuseScrollView (0.1.1)
-  - KZ_VideoPlayer (0.1.2):
+  - KZ_JSON (0.1.3)
+  - KZ_MacroDefinition (0.1.3)
+  - KZ_ReuseScrollView (0.1.2)
+  - KZ_VideoPlayer (0.1.3):
     - KZ_Categories
     - KZ_Constraints
 
@@ -29,14 +29,14 @@ SPEC REPOS:
     - KZ_VideoPlayer
 
 SPEC CHECKSUMS:
-  KZ_Categories: 84a90f91256ed74522fd0ded1e2bed094d5a6dd3
-  KZ_Constraints: 69d58cead692cb8ba778a00ba07bd5024045c771
-  KZ_HUD: 2fd21b3c7d8ec3232ad68e971cdef5f0b8ac3168
-  KZ_JSON: 71ee38a4e9a97b46c3c302408b9329051bb49980
-  KZ_MacroDefinition: 880f8b055e28f317d651f04c6b81b8af387051d0
-  KZ_ReuseScrollView: d3f4b7008ae4b5b7fd0b3807a2dbd155b919042f
-  KZ_VideoPlayer: 2f919adf494381132b64c6604b4f5f62b37dffe8
+  KZ_Categories: 42389791377f182cd87581d23ea873c7a7b87a66
+  KZ_Constraints: e5e23e4b42390dd99619ba21fa80b60f46985793
+  KZ_HUD: 0ca164ec5f370630706c0a1e9eb6ccc48df9199e
+  KZ_JSON: 4e4766cb638fb95fd0b9aa95de506acc6d5735eb
+  KZ_MacroDefinition: 227068cb3523c1479660e6c248d8856592c45332
+  KZ_ReuseScrollView: aabd6c6a5f2045e8f6f687e5c340ed676d35a4d4
+  KZ_VideoPlayer: 5abd6b412d6cf7c2f37bdb47dc344178250923a8
 
 PODFILE CHECKSUM: 4c44eaf90f0d6c7744c7c874291d0eee95431772
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3
