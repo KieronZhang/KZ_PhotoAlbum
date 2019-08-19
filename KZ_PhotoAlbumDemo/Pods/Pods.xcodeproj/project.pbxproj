@@ -6,311 +6,550 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		431EE36E0A40D5B4FB97A925BEB90BD9 /* KZ_HUD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2EA10FC90B07DEDD0A94F8B68F3687E5 /* Build configuration list for PBXAggregateTarget "KZ_HUD" */;
+			buildPhases = (
+			);
+			dependencies = (
+				E7456521650891B4E6F06EAD796B483C /* PBXTargetDependency */,
+			);
+			name = KZ_HUD;
+		};
+		43217930D28CF9C056420B8F2026DED2 /* KZ_MacroDefinition */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 76C5211E611DF21149CC703F3B8E34E5 /* Build configuration list for PBXAggregateTarget "KZ_MacroDefinition" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_MacroDefinition;
+		};
+		43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2D3F98899DA6C134FA31B3293926501 /* Build configuration list for PBXAggregateTarget "KZ_JSON" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_JSON;
+		};
+		440B27F7D0BA4D2EBF2E7614E85A4D65 /* KZ_ReuseScrollView */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABF1B953A448095F585193E28E54426B /* Build configuration list for PBXAggregateTarget "KZ_ReuseScrollView" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_ReuseScrollView;
+		};
+		5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F66B6B354F63A3FF1FC96F9E37FC5256 /* Build configuration list for PBXAggregateTarget "KZ_Categories" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D1231C5A8A5E36F2EB460AD552AECDB6 /* PBXTargetDependency */,
+			);
+			name = KZ_Categories;
+		};
+		B3AC7D6D8B3DA69E3DFAF653040DCB20 /* KZ_VideoPlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 002DF2A4029B4A72633A6F41DD2A5B38 /* Build configuration list for PBXAggregateTarget "KZ_VideoPlayer" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2667810BA68FF61012658519BC41752F /* PBXTargetDependency */,
+				5AEA55FE78F257D43555E80CAC8FD88D /* PBXTargetDependency */,
+			);
+			name = KZ_VideoPlayer;
+		};
+		F370AE9D8F22929981A5F6801622018B /* KZ_Constraints */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E128F67846A15E6F3192E3481BC520BD /* Build configuration list for PBXAggregateTarget "KZ_Constraints" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_Constraints;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		31662C350E5F189241713375002CC938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		909866E2A97DB8A3C545C94513CF8B6E /* Pods-KZ_PhotoAlbum_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B568766465379C758BC214A3EE10977E /* Pods-KZ_PhotoAlbum_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCAC96EC7BEAEFDB3379A85F94FF2460 /* Pods-KZ_PhotoAlbum_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C7D53AD07281792101B5F918BCC76B /* Pods-KZ_PhotoAlbum_iOS-dummy.m */; };
+		5B4B494BBA1809216AF242476B4ABB19 /* Pods-KZ_PhotoAlbum_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE7CE33E50979E0EFC3678BC07DDC56 /* Pods-KZ_PhotoAlbum_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B112F1CF58A3AE5748FD3080B3EC68D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D7F667DF1A62EBF08EEA5CF60DBAD0D5 /* Pods-KZ_PhotoAlbum_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F9FC840D6BA4FD9B174A903AFECDA /* Pods-KZ_PhotoAlbum_iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0FDB25190F10597B8D7CCC25A2218303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F370AE9D8F22929981A5F6801622018B;
+			remoteInfo = KZ_Constraints;
+		};
+		162E43F7AAD608315D9B049B034860E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F370AE9D8F22929981A5F6801622018B;
+			remoteInfo = KZ_Constraints;
+		};
+		4803CE6A3DA0DA18B5886C1B55DA104D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBB555F806498BD0170D25AF3E067A2;
+			remoteInfo = KZ_Categories;
+		};
+		51AEE25E56EFD7D17834A169170876CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBB555F806498BD0170D25AF3E067A2;
+			remoteInfo = KZ_Categories;
+		};
+		6389206B0895D77AFB7DC769A356369D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43217930D28CF9C056420B8F2026DED2;
+			remoteInfo = KZ_MacroDefinition;
+		};
+		81D82EBE64FC50F974C9558C02164D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431EE36E0A40D5B4FB97A925BEB90BD9;
+			remoteInfo = KZ_HUD;
+		};
+		C74E5DB5C4CE1FAB77F894C5D5CA61D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3AC7D6D8B3DA69E3DFAF653040DCB20;
+			remoteInfo = KZ_VideoPlayer;
+		};
+		D9C5242932DB44B13BB19B7DA8704663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43717FDE660756DA0DC7A16F996A3CFA;
+			remoteInfo = KZ_JSON;
+		};
+		E16E70800D2DE18F401CC1F57AA285AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43717FDE660756DA0DC7A16F996A3CFA;
+			remoteInfo = KZ_JSON;
+		};
+		F14D3C8B9A85BA010FD3F01BCD102068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBB555F806498BD0170D25AF3E067A2;
+			remoteInfo = KZ_Categories;
+		};
+		FA9981F9CB4A9C2B505B338A6B5080E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440B27F7D0BA4D2EBF2E7614E85A4D65;
+			remoteInfo = KZ_ReuseScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0C5743C5BBEAC95D23EC6C36107844E1 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_PhotoAlbum_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		127B44F00D850772BF95E37929D2F91F /* KZ_VideoPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_VideoPlayer_iOS.framework; path = KZ_VideoPlayer/KZ_VideoPlayer_iOS.framework; sourceTree = "<group>"; };
-		457BE834A97F4559329A3D70BCCDA123 /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
-		47A4382F330CD4C880894A0F17E731A2 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_PhotoAlbum_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5F3BC5D29EE2F696C507A02447403B68 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_MacroDefinition_iOS.framework; path = KZ_MacroDefinition/KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
-		695D2F1F9721234B7C99702AD26CD695 /* Pods-KZ_PhotoAlbum_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_PhotoAlbum_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		69DEAD1F1B70C27575C7F5FD50859946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7573AD9B80833A9E19C3D03E60EC1694 /* KZ_Constraints_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Constraints_iOS.framework; path = KZ_Constraints/KZ_Constraints_iOS.framework; sourceTree = "<group>"; };
-		76A0CC1032C69A6DE294DE46C16F9287 /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
-		8B98599A4CF6A1BA6ADBA2347F39DED2 /* KZ_ReuseScrollView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_ReuseScrollView_iOS.framework; path = KZ_ReuseScrollView/KZ_ReuseScrollView_iOS.framework; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E5E2C37CD7D617AFAEEFF7AAD80231D /* KZ_HUD_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_HUD_iOS.framework; path = KZ_HUD/KZ_HUD_iOS.framework; sourceTree = "<group>"; };
-		B16E118763B20B0577E35DF6B0A44E92 /* Pods_KZ_PhotoAlbum_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_PhotoAlbum_iOS.framework; path = "Pods-KZ_PhotoAlbum_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B568766465379C758BC214A3EE10977E /* Pods-KZ_PhotoAlbum_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_PhotoAlbum_iOS-umbrella.h"; sourceTree = "<group>"; };
-		BB3FE91CD3CA65C46A820D14BA7492BF /* KZ_VideoPlayer_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = KZ_VideoPlayer_Bundle.bundle; path = KZ_VideoPlayer/KZ_VideoPlayer_Bundle.bundle; sourceTree = "<group>"; };
-		C9C27134F6BBC9A7A214E8B25CB6162F /* Pods-KZ_PhotoAlbum_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_PhotoAlbum_iOS.modulemap"; sourceTree = "<group>"; };
-		D0F461FD4A267C522610D40B89D1E1D5 /* Pods-KZ_PhotoAlbum_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_PhotoAlbum_iOS-frameworks.sh"; sourceTree = "<group>"; };
-		E2C7D53AD07281792101B5F918BCC76B /* Pods-KZ_PhotoAlbum_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_PhotoAlbum_iOS-dummy.m"; sourceTree = "<group>"; };
-		F904561A3067277B95925930F6545B7D /* Pods-KZ_PhotoAlbum_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_PhotoAlbum_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		FD8137BA0956EBF10D7EC4FCD2048FE5 /* Pods-KZ_PhotoAlbum_iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_PhotoAlbum_iOS-resources.sh"; sourceTree = "<group>"; };
+		01C1D9E9101AAEAC7059B371A8DF63A1 /* KZ_VideoPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_VideoPlayer_iOS.framework; path = KZ_VideoPlayer/KZ_VideoPlayer_iOS.framework; sourceTree = "<group>"; };
+		0D774685216EA5F2E5E37464A6B02249 /* Pods-KZ_PhotoAlbum_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_PhotoAlbum_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		1CE7CE33E50979E0EFC3678BC07DDC56 /* Pods-KZ_PhotoAlbum_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_PhotoAlbum_iOS-umbrella.h"; sourceTree = "<group>"; };
+		1E183A5151C013F766BE8E9CA0587894 /* KZ_ReuseScrollView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_ReuseScrollView_iOS.framework; path = KZ_ReuseScrollView/KZ_ReuseScrollView_iOS.framework; sourceTree = "<group>"; };
+		1E39CB106FBCF9165F34B62BEDF4F0E0 /* KZ_VideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_VideoPlayer.xcconfig; sourceTree = "<group>"; };
+		2DE84B24EE190BFADF86B5EA0EA6E326 /* KZ_MacroDefinition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_MacroDefinition.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38DA24809FA95B7500A78523D6B0EDE8 /* KZ_JSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_JSON.xcconfig; sourceTree = "<group>"; };
+		3E6655A4B3D62C3E6FFB55B90CB86280 /* KZ_Constraints_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Constraints_iOS.framework; path = KZ_Constraints/KZ_Constraints_iOS.framework; sourceTree = "<group>"; };
+		4A2F9FC840D6BA4FD9B174A903AFECDA /* Pods-KZ_PhotoAlbum_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_PhotoAlbum_iOS-dummy.m"; sourceTree = "<group>"; };
+		4B40DBE09BADFDFD91634A9A0D1AA59F /* Pods-KZ_PhotoAlbum_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_PhotoAlbum_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5059707B1BFF9B96664C8F63C808844F /* Pods-KZ_PhotoAlbum_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_PhotoAlbum_iOS-Info.plist"; sourceTree = "<group>"; };
+		76E5E85639ED017A12953E1B91C2209F /* KZ_HUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_HUD.xcconfig; sourceTree = "<group>"; };
+		7ABF102BD42BBED25656A5E132E68864 /* Pods_KZ_PhotoAlbum_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_PhotoAlbum_iOS.framework; path = "Pods-KZ_PhotoAlbum_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD503606E6C82757F5CC9BA2AFFE7EF /* KZ_Constraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Constraints.xcconfig; sourceTree = "<group>"; };
+		8F4E9DDB8EF6BB4BDC0C10315EC2ED8A /* KZ_ReuseScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_ReuseScrollView.xcconfig; sourceTree = "<group>"; };
+		99D385C94FEAD39F99A876AF3A157465 /* KZ_MacroDefinition_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_MacroDefinition_iOS.framework; path = KZ_MacroDefinition/KZ_MacroDefinition_iOS.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A313A4BA6FB75D37407A35486B2B2D6B /* KZ_Categories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_Categories.xcconfig; sourceTree = "<group>"; };
+		A43A38FE1F7AE69070A366A67098C825 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_PhotoAlbum_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		B42B0FC58131DCD7D2272C89B52CD426 /* KZ_VideoPlayer_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = KZ_VideoPlayer_Bundle.bundle; path = KZ_VideoPlayer/KZ_VideoPlayer_Bundle.bundle; sourceTree = "<group>"; };
+		C543DD248D990D32BD9F194A5F9F9EED /* Pods-KZ_PhotoAlbum_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_PhotoAlbum_iOS.modulemap"; sourceTree = "<group>"; };
+		D07145CC7B9953973510F19C7210CAAF /* KZ_HUD_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_HUD_iOS.framework; path = KZ_HUD/KZ_HUD_iOS.framework; sourceTree = "<group>"; };
+		D18809324219E8C74D7EABE1C5AA241E /* KZ_JSON_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_JSON_iOS.framework; path = KZ_JSON/KZ_JSON_iOS.framework; sourceTree = "<group>"; };
+		F1CA518AF3B2794314AAFA2D4EEC84AA /* KZ_Categories_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_Categories_iOS.framework; path = KZ_Categories/KZ_Categories_iOS.framework; sourceTree = "<group>"; };
+		F9530D6E0B6D635D5522FF46649ADABE /* Pods-KZ_PhotoAlbum_iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_PhotoAlbum_iOS-resources.sh"; sourceTree = "<group>"; };
+		FFB636FDEE8E0303CAEF228BC22CCE60 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_PhotoAlbum_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		924C63DA3A68520AC8E76AB1BC3806AD /* Frameworks */ = {
+		3D28A2AAE179FA88DA15D508A2DA264C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31662C350E5F189241713375002CC938 /* Foundation.framework in Frameworks */,
+				B112F1CF58A3AE5748FD3080B3EC68D1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122EF5F357FEFEFA4AF151BEB62CC01D /* Products */ = {
+		02C64BC693B3D61BF78ED2AFF87FE425 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B16E118763B20B0577E35DF6B0A44E92 /* Pods_KZ_PhotoAlbum_iOS.framework */,
+				1E183A5151C013F766BE8E9CA0587894 /* KZ_ReuseScrollView_iOS.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		180A55707FB626D666C50F3EAC495D8B /* KZ_HUD */ = {
+		05B04ACB188E1DF9FA14C228C01D358F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50845BD83AD1BE6234F7773BB55DAB53 /* Frameworks */,
+				A313A4BA6FB75D37407A35486B2B2D6B /* KZ_Categories.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_Categories";
+			sourceTree = "<group>";
+		};
+		0A51F73C14E52BF49B88CEBB35AE4F1C /* KZ_HUD */ = {
+			isa = PBXGroup;
+			children = (
+				D828556E712B6783D0756566095B0955 /* Frameworks */,
+				E084EFB962E4B54F211B2AFB3712524E /* Support Files */,
 			);
 			name = KZ_HUD;
 			path = KZ_HUD;
 			sourceTree = "<group>";
 		};
-		22C9650EFAA5C7494A2AEDA93CA04DB8 /* Frameworks */ = {
+		0E7FC7DBAA2250962F95F685CD141446 /* KZ_Categories */ = {
 			isa = PBXGroup;
 			children = (
-				5F3BC5D29EE2F696C507A02447403B68 /* KZ_MacroDefinition_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		24EFF9F238EF267517C16A61EC8B754F /* KZ_JSON */ = {
-			isa = PBXGroup;
-			children = (
-				F69869426EC20483C8255B61B13E8CE5 /* Frameworks */,
-			);
-			name = KZ_JSON;
-			path = KZ_JSON;
-			sourceTree = "<group>";
-		};
-		33662E5AF8D1B6060501D53763C1203B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7573AD9B80833A9E19C3D03E60EC1694 /* KZ_Constraints_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		50845BD83AD1BE6234F7773BB55DAB53 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9E5E2C37CD7D617AFAEEFF7AAD80231D /* KZ_HUD_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		529C32420E1833B255F67AE927F3BA0F /* KZ_Constraints */ = {
-			isa = PBXGroup;
-			children = (
-				33662E5AF8D1B6060501D53763C1203B /* Frameworks */,
-			);
-			name = KZ_Constraints;
-			path = KZ_Constraints;
-			sourceTree = "<group>";
-		};
-		551B558252598BD72C60866470D0E43B /* KZ_MacroDefinition */ = {
-			isa = PBXGroup;
-			children = (
-				22C9650EFAA5C7494A2AEDA93CA04DB8 /* Frameworks */,
-			);
-			name = KZ_MacroDefinition;
-			path = KZ_MacroDefinition;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		670C9FF43E26ACDF847295683E60C091 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				BB3FE91CD3CA65C46A820D14BA7492BF /* KZ_VideoPlayer_Bundle.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				AEC2C573A3294489144D9EC8859D04AE /* Pods */,
-				122EF5F357FEFEFA4AF151BEB62CC01D /* Products */,
-				868877F41B740A79199CF198AAA71618 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		868877F41B740A79199CF198AAA71618 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E7AFEC5F76E552A3B8DF3A40880430F6 /* Pods-KZ_PhotoAlbum_iOS */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9910C40DD4F4BD9C31EC966849497FC6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				457BE834A97F4559329A3D70BCCDA123 /* KZ_Categories_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A018455A4C661698B3287AC212060DEC /* KZ_VideoPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				CCCB4DC784C89B840AA6FFB0BE4DF000 /* Frameworks */,
-				670C9FF43E26ACDF847295683E60C091 /* Resources */,
-			);
-			name = KZ_VideoPlayer;
-			path = KZ_VideoPlayer;
-			sourceTree = "<group>";
-		};
-		AEC2C573A3294489144D9EC8859D04AE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F952489AF1429603225E6B71ECC18201 /* KZ_Categories */,
-				529C32420E1833B255F67AE927F3BA0F /* KZ_Constraints */,
-				180A55707FB626D666C50F3EAC495D8B /* KZ_HUD */,
-				24EFF9F238EF267517C16A61EC8B754F /* KZ_JSON */,
-				551B558252598BD72C60866470D0E43B /* KZ_MacroDefinition */,
-				F43B337E5FD30428089E7506ADAFFFD2 /* KZ_ReuseScrollView */,
-				A018455A4C661698B3287AC212060DEC /* KZ_VideoPlayer */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCCB4DC784C89B840AA6FFB0BE4DF000 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				127B44F00D850772BF95E37929D2F91F /* KZ_VideoPlayer_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E34DCD0F4892F3971BE286890DCF0965 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8B98599A4CF6A1BA6ADBA2347F39DED2 /* KZ_ReuseScrollView_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E7AFEC5F76E552A3B8DF3A40880430F6 /* Pods-KZ_PhotoAlbum_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				69DEAD1F1B70C27575C7F5FD50859946 /* Info.plist */,
-				C9C27134F6BBC9A7A214E8B25CB6162F /* Pods-KZ_PhotoAlbum_iOS.modulemap */,
-				47A4382F330CD4C880894A0F17E731A2 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.markdown */,
-				0C5743C5BBEAC95D23EC6C36107844E1 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.plist */,
-				E2C7D53AD07281792101B5F918BCC76B /* Pods-KZ_PhotoAlbum_iOS-dummy.m */,
-				D0F461FD4A267C522610D40B89D1E1D5 /* Pods-KZ_PhotoAlbum_iOS-frameworks.sh */,
-				FD8137BA0956EBF10D7EC4FCD2048FE5 /* Pods-KZ_PhotoAlbum_iOS-resources.sh */,
-				B568766465379C758BC214A3EE10977E /* Pods-KZ_PhotoAlbum_iOS-umbrella.h */,
-				695D2F1F9721234B7C99702AD26CD695 /* Pods-KZ_PhotoAlbum_iOS.debug.xcconfig */,
-				F904561A3067277B95925930F6545B7D /* Pods-KZ_PhotoAlbum_iOS.release.xcconfig */,
-			);
-			name = "Pods-KZ_PhotoAlbum_iOS";
-			path = "Target Support Files/Pods-KZ_PhotoAlbum_iOS";
-			sourceTree = "<group>";
-		};
-		F43B337E5FD30428089E7506ADAFFFD2 /* KZ_ReuseScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				E34DCD0F4892F3971BE286890DCF0965 /* Frameworks */,
-			);
-			name = KZ_ReuseScrollView;
-			path = KZ_ReuseScrollView;
-			sourceTree = "<group>";
-		};
-		F69869426EC20483C8255B61B13E8CE5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				76A0CC1032C69A6DE294DE46C16F9287 /* KZ_JSON_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F952489AF1429603225E6B71ECC18201 /* KZ_Categories */ = {
-			isa = PBXGroup;
-			children = (
-				9910C40DD4F4BD9C31EC966849497FC6 /* Frameworks */,
+				BFFF4FE5114761FDB8B6217F12E1FC1B /* Frameworks */,
+				05B04ACB188E1DF9FA14C228C01D358F /* Support Files */,
 			);
 			name = KZ_Categories;
 			path = KZ_Categories;
 			sourceTree = "<group>";
 		};
+		2781A881496E9FA9BF21CB158DA4B6AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE84B24EE190BFADF86B5EA0EA6E326 /* KZ_MacroDefinition.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_MacroDefinition";
+			sourceTree = "<group>";
+		};
+		303ACFEA093BD2B78A5BB6596E1A4FBA /* KZ_ReuseScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				02C64BC693B3D61BF78ED2AFF87FE425 /* Frameworks */,
+				5DFA5E3F017D376D6D095EC9C3A171DD /* Support Files */,
+			);
+			name = KZ_ReuseScrollView;
+			path = KZ_ReuseScrollView;
+			sourceTree = "<group>";
+		};
+		417E919B2F0EB48BEC51BF8E48F43889 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AD503606E6C82757F5CC9BA2AFFE7EF /* KZ_Constraints.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_Constraints";
+			sourceTree = "<group>";
+		};
+		4512454A2A7CF2BE3E0598E77CBA5E57 /* KZ_MacroDefinition */ = {
+			isa = PBXGroup;
+			children = (
+				BBD557FC2E2246839EA1DCA50AB28785 /* Frameworks */,
+				2781A881496E9FA9BF21CB158DA4B6AF /* Support Files */,
+			);
+			name = KZ_MacroDefinition;
+			path = KZ_MacroDefinition;
+			sourceTree = "<group>";
+		};
+		5DDD55E6BFE5B4483943B452E5EA5711 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01C1D9E9101AAEAC7059B371A8DF63A1 /* KZ_VideoPlayer_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DFA5E3F017D376D6D095EC9C3A171DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F4E9DDB8EF6BB4BDC0C10315EC2ED8A /* KZ_ReuseScrollView.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_ReuseScrollView";
+			sourceTree = "<group>";
+		};
+		66877998EE58D131A5E49E9FA51B48B1 /* Pods-KZ_PhotoAlbum_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C543DD248D990D32BD9F194A5F9F9EED /* Pods-KZ_PhotoAlbum_iOS.modulemap */,
+				FFB636FDEE8E0303CAEF228BC22CCE60 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.markdown */,
+				A43A38FE1F7AE69070A366A67098C825 /* Pods-KZ_PhotoAlbum_iOS-acknowledgements.plist */,
+				4A2F9FC840D6BA4FD9B174A903AFECDA /* Pods-KZ_PhotoAlbum_iOS-dummy.m */,
+				5059707B1BFF9B96664C8F63C808844F /* Pods-KZ_PhotoAlbum_iOS-Info.plist */,
+				F9530D6E0B6D635D5522FF46649ADABE /* Pods-KZ_PhotoAlbum_iOS-resources.sh */,
+				1CE7CE33E50979E0EFC3678BC07DDC56 /* Pods-KZ_PhotoAlbum_iOS-umbrella.h */,
+				4B40DBE09BADFDFD91634A9A0D1AA59F /* Pods-KZ_PhotoAlbum_iOS.debug.xcconfig */,
+				0D774685216EA5F2E5E37464A6B02249 /* Pods-KZ_PhotoAlbum_iOS.release.xcconfig */,
+			);
+			name = "Pods-KZ_PhotoAlbum_iOS";
+			path = "Target Support Files/Pods-KZ_PhotoAlbum_iOS";
+			sourceTree = "<group>";
+		};
+		6A72062E3746462E94308C3D67B6F18B /* KZ_JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E79EFB5894DB1034888DAAB68659CD2D /* Frameworks */,
+				973F791C02F2DEB3147F2936936FBCCC /* Support Files */,
+			);
+			name = KZ_JSON;
+			path = KZ_JSON;
+			sourceTree = "<group>";
+		};
+		7348DEFB5905819292F14D59324409B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E7FC7DBAA2250962F95F685CD141446 /* KZ_Categories */,
+				80407F0387A92C0FA44810F944D46FB9 /* KZ_Constraints */,
+				0A51F73C14E52BF49B88CEBB35AE4F1C /* KZ_HUD */,
+				6A72062E3746462E94308C3D67B6F18B /* KZ_JSON */,
+				4512454A2A7CF2BE3E0598E77CBA5E57 /* KZ_MacroDefinition */,
+				303ACFEA093BD2B78A5BB6596E1A4FBA /* KZ_ReuseScrollView */,
+				7A0970F40D1CB44111AE689B701E5CFF /* KZ_VideoPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A0970F40D1CB44111AE689B701E5CFF /* KZ_VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DDD55E6BFE5B4483943B452E5EA5711 /* Frameworks */,
+				7A549DA122F8A5205E4D80C1B5662579 /* Resources */,
+				FCC1B56E174DCFEFF5BBF3367F6074CE /* Support Files */,
+			);
+			name = KZ_VideoPlayer;
+			path = KZ_VideoPlayer;
+			sourceTree = "<group>";
+		};
+		7A549DA122F8A5205E4D80C1B5662579 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B42B0FC58131DCD7D2272C89B52CD426 /* KZ_VideoPlayer_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CAEB255372289203C6C5E2314F8BACD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66877998EE58D131A5E49E9FA51B48B1 /* Pods-KZ_PhotoAlbum_iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		80407F0387A92C0FA44810F944D46FB9 /* KZ_Constraints */ = {
+			isa = PBXGroup;
+			children = (
+				AC6BD12C09F2E90F089A56A1C8D60535 /* Frameworks */,
+				417E919B2F0EB48BEC51BF8E48F43889 /* Support Files */,
+			);
+			name = KZ_Constraints;
+			path = KZ_Constraints;
+			sourceTree = "<group>";
+		};
+		973F791C02F2DEB3147F2936936FBCCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DA24809FA95B7500A78523D6B0EDE8 /* KZ_JSON.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_JSON";
+			sourceTree = "<group>";
+		};
+		AC6BD12C09F2E90F089A56A1C8D60535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6655A4B3D62C3E6FFB55B90CB86280 /* KZ_Constraints_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBD557FC2E2246839EA1DCA50AB28785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D385C94FEAD39F99A876AF3A157465 /* KZ_MacroDefinition_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFFF4FE5114761FDB8B6217F12E1FC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1CA518AF3B2794314AAFA2D4EEC84AA /* KZ_Categories_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7348DEFB5905819292F14D59324409B1 /* Pods */,
+				FCDD57EC1EA5EC586E51254C632C6D4B /* Products */,
+				7CAEB255372289203C6C5E2314F8BACD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D828556E712B6783D0756566095B0955 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D07145CC7B9953973510F19C7210CAAF /* KZ_HUD_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E084EFB962E4B54F211B2AFB3712524E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E85639ED017A12953E1B91C2209F /* KZ_HUD.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_HUD";
+			sourceTree = "<group>";
+		};
+		E79EFB5894DB1034888DAAB68659CD2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D18809324219E8C74D7EABE1C5AA241E /* KZ_JSON_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC1B56E174DCFEFF5BBF3367F6074CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E39CB106FBCF9165F34B62BEDF4F0E0 /* KZ_VideoPlayer.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_VideoPlayer";
+			sourceTree = "<group>";
+		};
+		FCDD57EC1EA5EC586E51254C632C6D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF102BD42BBED25656A5E132E68864 /* Pods_KZ_PhotoAlbum_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9451EFBAC58AB81CBA55A38525EF6952 /* Headers */ = {
+		CDF1E3B4BF4C49753B828A1274DCD980 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909866E2A97DB8A3C545C94513CF8B6E /* Pods-KZ_PhotoAlbum_iOS-umbrella.h in Headers */,
+				5B4B494BBA1809216AF242476B4ABB19 /* Pods-KZ_PhotoAlbum_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CB9BA9FD941C8BC01F336651C006F006 /* Pods-KZ_PhotoAlbum_iOS */ = {
+		3DE3F41C0C619B518D8A2BCBDB709AC8 /* Pods-KZ_PhotoAlbum_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14706B97FA82699526BF911000449E44 /* Build configuration list for PBXNativeTarget "Pods-KZ_PhotoAlbum_iOS" */;
+			buildConfigurationList = 2FB2B517E7AB45E2F2174A253E7DAFD5 /* Build configuration list for PBXNativeTarget "Pods-KZ_PhotoAlbum_iOS" */;
 			buildPhases = (
-				9451EFBAC58AB81CBA55A38525EF6952 /* Headers */,
-				9118C49216BCD728123709F853607C41 /* Sources */,
-				924C63DA3A68520AC8E76AB1BC3806AD /* Frameworks */,
-				F123E59E4E0C0D876A8951FEA22B8AE6 /* Resources */,
+				CDF1E3B4BF4C49753B828A1274DCD980 /* Headers */,
+				42CCCCEF9CBD88E3C9F809E7CBEEF959 /* Sources */,
+				3D28A2AAE179FA88DA15D508A2DA264C /* Frameworks */,
+				8D98490221DE7094BAE2D7BC96C72508 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				499839FAAE389711206A10863543646B /* PBXTargetDependency */,
+				9FC39727E5E49DAF52075423D97E8D42 /* PBXTargetDependency */,
+				F2EB413D3D293A1B02D3172C9247F508 /* PBXTargetDependency */,
+				00D3FCA4C44E5A230A29F2FEA366CDF9 /* PBXTargetDependency */,
+				B171EED695927E78DDC421479D6591F0 /* PBXTargetDependency */,
+				90D7FE5BF86257ECAC8664F0E5ACB3A9 /* PBXTargetDependency */,
+				A4F4A952AEA2224A80FCBBCE03EB0AD5 /* PBXTargetDependency */,
 			);
 			name = "Pods-KZ_PhotoAlbum_iOS";
 			productName = "Pods-KZ_PhotoAlbum_iOS";
-			productReference = B16E118763B20B0577E35DF6B0A44E92 /* Pods_KZ_PhotoAlbum_iOS.framework */;
+			productReference = 7ABF102BD42BBED25656A5E132E68864 /* Pods_KZ_PhotoAlbum_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 122EF5F357FEFEFA4AF151BEB62CC01D /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FCDD57EC1EA5EC586E51254C632C6D4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB9BA9FD941C8BC01F336651C006F006 /* Pods-KZ_PhotoAlbum_iOS */,
+				5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */,
+				F370AE9D8F22929981A5F6801622018B /* KZ_Constraints */,
+				431EE36E0A40D5B4FB97A925BEB90BD9 /* KZ_HUD */,
+				43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */,
+				43217930D28CF9C056420B8F2026DED2 /* KZ_MacroDefinition */,
+				440B27F7D0BA4D2EBF2E7614E85A4D65 /* KZ_ReuseScrollView */,
+				B3AC7D6D8B3DA69E3DFAF653040DCB20 /* KZ_VideoPlayer */,
+				3DE3F41C0C619B518D8A2BCBDB709AC8 /* Pods-KZ_PhotoAlbum_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F123E59E4E0C0D876A8951FEA22B8AE6 /* Resources */ = {
+		8D98490221DE7094BAE2D7BC96C72508 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,18 +559,187 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9118C49216BCD728123709F853607C41 /* Sources */ = {
+		42CCCCEF9CBD88E3C9F809E7CBEEF959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAC96EC7BEAEFDB3379A85F94FF2460 /* Pods-KZ_PhotoAlbum_iOS-dummy.m in Sources */,
+				D7F667DF1A62EBF08EEA5CF60DBAD0D5 /* Pods-KZ_PhotoAlbum_iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		00D3FCA4C44E5A230A29F2FEA366CDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_JSON;
+			target = 43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */;
+			targetProxy = D9C5242932DB44B13BB19B7DA8704663 /* PBXContainerItemProxy */;
+		};
+		2667810BA68FF61012658519BC41752F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_Categories;
+			target = 5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */;
+			targetProxy = 4803CE6A3DA0DA18B5886C1B55DA104D /* PBXContainerItemProxy */;
+		};
+		499839FAAE389711206A10863543646B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_Categories;
+			target = 5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */;
+			targetProxy = F14D3C8B9A85BA010FD3F01BCD102068 /* PBXContainerItemProxy */;
+		};
+		5AEA55FE78F257D43555E80CAC8FD88D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_Constraints;
+			target = F370AE9D8F22929981A5F6801622018B /* KZ_Constraints */;
+			targetProxy = 162E43F7AAD608315D9B049B034860E2 /* PBXContainerItemProxy */;
+		};
+		90D7FE5BF86257ECAC8664F0E5ACB3A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_ReuseScrollView;
+			target = 440B27F7D0BA4D2EBF2E7614E85A4D65 /* KZ_ReuseScrollView */;
+			targetProxy = FA9981F9CB4A9C2B505B338A6B5080E1 /* PBXContainerItemProxy */;
+		};
+		9FC39727E5E49DAF52075423D97E8D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_Constraints;
+			target = F370AE9D8F22929981A5F6801622018B /* KZ_Constraints */;
+			targetProxy = 0FDB25190F10597B8D7CCC25A2218303 /* PBXContainerItemProxy */;
+		};
+		A4F4A952AEA2224A80FCBBCE03EB0AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_VideoPlayer;
+			target = B3AC7D6D8B3DA69E3DFAF653040DCB20 /* KZ_VideoPlayer */;
+			targetProxy = C74E5DB5C4CE1FAB77F894C5D5CA61D8 /* PBXContainerItemProxy */;
+		};
+		B171EED695927E78DDC421479D6591F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_MacroDefinition;
+			target = 43217930D28CF9C056420B8F2026DED2 /* KZ_MacroDefinition */;
+			targetProxy = 6389206B0895D77AFB7DC769A356369D /* PBXContainerItemProxy */;
+		};
+		D1231C5A8A5E36F2EB460AD552AECDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_JSON;
+			target = 43717FDE660756DA0DC7A16F996A3CFA /* KZ_JSON */;
+			targetProxy = E16E70800D2DE18F401CC1F57AA285AB /* PBXContainerItemProxy */;
+		};
+		E7456521650891B4E6F06EAD796B483C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_Categories;
+			target = 5EBB555F806498BD0170D25AF3E067A2 /* KZ_Categories */;
+			targetProxy = 51AEE25E56EFD7D17834A169170876CB /* PBXContainerItemProxy */;
+		};
+		F2EB413D3D293A1B02D3172C9247F508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_HUD;
+			target = 431EE36E0A40D5B4FB97A925BEB90BD9 /* KZ_HUD */;
+			targetProxy = 81D82EBE64FC50F974C9558C02164D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+		0DF20684F6CD2FB4F2B0E67ACC08ECA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E39CB106FBCF9165F34B62BEDF4F0E0 /* KZ_VideoPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12704B9EA7793BAF4AA5F1B53CD5C169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DA24809FA95B7500A78523D6B0EDE8 /* KZ_JSON.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		237911EC10CFB15D36E7137CA0E5D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E39CB106FBCF9165F34B62BEDF4F0E0 /* KZ_VideoPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A03040B3441FB1CFD729F167F335F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4E9DDB8EF6BB4BDC0C10315EC2ED8A /* KZ_ReuseScrollView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F7A307783EEAE4AABBAD92697BAA2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E5E85639ED017A12953E1B91C2209F /* KZ_HUD.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448CE1F3E79E413CF38A65EB3D6EE79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD503606E6C82757F5CC9BA2AFFE7EF /* KZ_Constraints.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,8 +771,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -386,13 +792,33 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		AC6EC3980776081C94C072DCEF008012 /* Release */ = {
+		4E4EEB2AEF73E67922C4E3636F22C8F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F904561A3067277B95925930F6545B7D /* Pods-KZ_PhotoAlbum_iOS.release.xcconfig */;
+			baseConfigurationReference = A313A4BA6FB75D37407A35486B2B2D6B /* KZ_Categories.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E87964FAB7B3CFA63A98384168C24BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D774685216EA5F2E5E37464A6B02249 /* Pods-KZ_PhotoAlbum_iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -404,7 +830,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_PhotoAlbum_iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_PhotoAlbum_iOS/Pods-KZ_PhotoAlbum_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,44 +854,7 @@
 			};
 			name = Release;
 		};
-		C74BFE006F394C836171B2364FD29DCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 695D2F1F9721234B7C99702AD26CD695 /* Pods-KZ_PhotoAlbum_iOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_PhotoAlbum_iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KZ_PhotoAlbum_iOS/Pods-KZ_PhotoAlbum_iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -497,8 +886,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -525,32 +912,248 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		7F8BD51558D6731C23700D3DC25F8CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE84B24EE190BFADF86B5EA0EA6E326 /* KZ_MacroDefinition.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFC9D427176FF155D0D25B213C4EE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DA24809FA95B7500A78523D6B0EDE8 /* KZ_JSON.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A25DE41C17A7C150724E3ABCB91DC39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AD503606E6C82757F5CC9BA2AFFE7EF /* KZ_Constraints.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7C11C3D34ADF869D40F6EEA82A34D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A313A4BA6FB75D37407A35486B2B2D6B /* KZ_Categories.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBD3D395665A5CFD4898AC113C6D5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE84B24EE190BFADF86B5EA0EA6E326 /* KZ_MacroDefinition.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4A42F2A2FC6B16043B7A57F0A90961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B40DBE09BADFDFD91634A9A0D1AA59F /* Pods-KZ_PhotoAlbum_iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_PhotoAlbum_iOS/Pods-KZ_PhotoAlbum_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KZ_PhotoAlbum_iOS/Pods-KZ_PhotoAlbum_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF2C58DEB9596736FEA6B2B0C462B886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E5E85639ED017A12953E1B91C2209F /* KZ_HUD.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE8B5009B2FD1C43593F7F7D6D76DB9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4E9DDB8EF6BB4BDC0C10315EC2ED8A /* KZ_ReuseScrollView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14706B97FA82699526BF911000449E44 /* Build configuration list for PBXNativeTarget "Pods-KZ_PhotoAlbum_iOS" */ = {
+		002DF2A4029B4A72633A6F41DD2A5B38 /* Build configuration list for PBXAggregateTarget "KZ_VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C74BFE006F394C836171B2364FD29DCE /* Debug */,
-				AC6EC3980776081C94C072DCEF008012 /* Release */,
+				237911EC10CFB15D36E7137CA0E5D60E /* Debug */,
+				0DF20684F6CD2FB4F2B0E67ACC08ECA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2EA10FC90B07DEDD0A94F8B68F3687E5 /* Build configuration list for PBXAggregateTarget "KZ_HUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
-				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+				EF2C58DEB9596736FEA6B2B0C462B886 /* Debug */,
+				2F7A307783EEAE4AABBAD92697BAA2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB2B517E7AB45E2F2174A253E7DAFD5 /* Build configuration list for PBXNativeTarget "Pods-KZ_PhotoAlbum_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A42F2A2FC6B16043B7A57F0A90961D /* Debug */,
+				7E87964FAB7B3CFA63A98384168C24BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C5211E611DF21149CC703F3B8E34E5 /* Build configuration list for PBXAggregateTarget "KZ_MacroDefinition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBD3D395665A5CFD4898AC113C6D5FC /* Debug */,
+				7F8BD51558D6731C23700D3DC25F8CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF1B953A448095F585193E28E54426B /* Build configuration list for PBXAggregateTarget "KZ_ReuseScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A03040B3441FB1CFD729F167F335F76 /* Debug */,
+				FE8B5009B2FD1C43593F7F7D6D76DB9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2D3F98899DA6C134FA31B3293926501 /* Build configuration list for PBXAggregateTarget "KZ_JSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFC9D427176FF155D0D25B213C4EE3B /* Debug */,
+				12704B9EA7793BAF4AA5F1B53CD5C169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E128F67846A15E6F3192E3481BC520BD /* Build configuration list for PBXAggregateTarget "KZ_Constraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25DE41C17A7C150724E3ABCB91DC39F /* Debug */,
+				448CE1F3E79E413CF38A65EB3D6EE79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F66B6B354F63A3FF1FC96F9E37FC5256 /* Build configuration list for PBXAggregateTarget "KZ_Categories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C11C3D34ADF869D40F6EEA82A34D88 /* Debug */,
+				4E4EEB2AEF73E67922C4E3636F22C8F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

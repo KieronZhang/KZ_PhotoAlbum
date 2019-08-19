@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/KZ_VideoPlayer
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/KZ_Categories/KZ_Categories" "${PODS_ROOT}/KZ_Constraints/KZ_Constraints" "${PODS_ROOT}/KZ_JSON/KZ_JSON" "${PODS_ROOT}/KZ_VideoPlayer/KZ_VideoPlayer"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "Foundation" -framework "MediaPlayer" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/KZ_VideoPlayer
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
